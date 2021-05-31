@@ -18,6 +18,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 //giving the server access to routes
 app.use(routes);
+app.use("/", domainRoute);
 
 const port = process.env.PORT || 8000;
 
