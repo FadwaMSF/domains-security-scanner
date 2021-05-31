@@ -12,3 +12,5 @@ const app = express();
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
+
+const port = process.env.PORT || 8000;
