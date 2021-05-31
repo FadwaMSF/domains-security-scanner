@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/MahmoudAbdo2020/nodejs-tutorial#readme",
   "dependencies": {
+    "express": "^4.17.1",
     "pg": "^8.6.0"
   }
 }
