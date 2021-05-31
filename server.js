@@ -9,3 +9,6 @@ require("dotenv").config();
 
 //Initializing the server
 const app = express();
+
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
