@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/MahmoudAbdo2020/nodejs-tutorial/issues"
   },
-  "homepage": "https://github.com/MahmoudAbdo2020/nodejs-tutorial#readme"
+  "homepage": "https://github.com/MahmoudAbdo2020/nodejs-tutorial#readme",
+  "dependencies": {
+    "pg": "^8.6.0"
+  }
 }
