@@ -1,5 +1,8 @@
 import { Pool } from "pg";
 
+// To be able to use variables in .env file
+require("dotenv").config();
+
 const pool = new Pool({
   connectionString: process.env.DATABASE_URL,
 });
