@@ -3,6 +3,8 @@
 import express from "express";
 import bodyParser from "body-parser";
 import routes from "./src/routes";
+import domainRoute from "./src/routes/allDomains";
+
 import cors from "cors";
 
 // To be able to use variables in .env file
