@@ -5,8 +5,6 @@ import bodyParser from "body-parser";
 import routes from "./src/routes";
 import domainRoute from "./src/routes/allDomains";
 
-import cors from "cors";
-
 // To be able to use variables in .env file
 require("dotenv").config();
 
@@ -18,7 +16,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 //giving the server access to routes
 app.use(routes);
-app.use("/", domainRoute);
+app.use("/domain", domainRoute);
 
 const port = process.env.PORT || 8000;
 
